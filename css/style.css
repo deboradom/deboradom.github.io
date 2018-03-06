@@ -71,7 +71,7 @@ h2{
     background: url("../img/bg-banner.png");
     background-size: cover; 
     min-height: 85%;
-    min-width: 200%;
+    min-width: 100%;
 }
 
 nav img{
