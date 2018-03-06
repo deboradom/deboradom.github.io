@@ -18,6 +18,10 @@ header a{
     padding: 10px 20px;
 }
 
+@media (max-width: 768px){
+
+}
+
 header a:hover{
     background-color: black;
     color: white;
@@ -67,6 +71,7 @@ h2{
     background: url("../img/bg-banner.png");
     background-size: cover; 
     min-height: 85%;
+    min-width: 200%;
 }
 
 nav img{
@@ -114,6 +119,8 @@ header{
     justify-content: space-between;
 }
 
+/* SERVIÇOS */
+
 .servicos{
     background: url("../img/bg-servicos.png");
 }
@@ -121,22 +128,30 @@ header{
 .servicos h2{
     padding: 30px;
     text-align: center;
+    font-size: 30px;
 }
 
 .consultoria, .roteiro{
     text-align: center;
-    margin: 20px 20px;
-    width: 300px;
-    height: 400px;
-    background-color: rgb(104, 206, 253);
+    margin: 20px 60px;
+    width: 380px;
+    height: 500px;
+    background-color: #2EC2D2;
+    box-shadow: 2px 2px 10px #888888;
     display: inline-block;
+    border-radius: 10px;
 }
 
 
 .consultoria p, .roteiro p{
-    margin: 20px;
-    text-align: justify;
+    margin: 35px auto;
+    text-align: center;
+    color: white;
+    width: 250px;
+    font-size: 20px;
 }
+
+
 
 .consultoria a, .roteiro a{
     background-color: yellow;
@@ -147,6 +162,17 @@ header{
     font-weight: bold;
     color: rgb(179, 108, 2);
     padding: 10px 20px;
+}
+
+.consultoria img, .roteiro img{
+    width: 150px;
+}
+
+.consultoria h3, .roteiro h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Asap', 'Flamenco', Arial;
 }
 
 .cards{
@@ -167,6 +193,7 @@ header{
     color: white;
     font-weight: lighter;
     padding: 20px 0 0 0;
+    margin: 0;
 }
 
 .curiosidades h4{
@@ -194,20 +221,71 @@ header{
 
 /* Formulario */
 
-input, label{
-    display: block;
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    background: #F4F3F2;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+}
+
+form input, label{
+    display: flex;
+    border-color: transparent;
+}
+
+form input{
+    border: 1px solid rgba(250, 198, 9, 0.582);
+    padding: 5px 20px;
 }
 
 .nome-email{
     display: flex;
-    justify-content: space-around;
-    margin: 20px 400px;
+    justify-content: space-between;
+    margin: 20px;
 }
 
-.restante{
-    margin: 0 auto;
-    width: 200px;
+.nome, .mail{
+    width: 48%;
 }
+
+
+.contato input{
+    background-color: #FFEBA9;
+}
+
+.contato .enviar{
+    background-color: #05918D;
+    font-family: 'lato', 'flamenco', Arial;
+    color: white;
+    text-transform: uppercase;
+    align-items: 
+
+}
+
+.nome-email input, label{
+    display: flex;
+    width: 100%;
+}
+.restante{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+}
+
+.mensagem{
+    margin: 10px 0;
+}
+.restante label, input{
+    display: flex;
+    width: 100%;
+}
+
+
 
 /* NOVIDADES */
 
