@@ -18,14 +18,21 @@ header a{
     padding: 10px 20px;
 }
 
-@media (max-width: 768px){
 
-}
+@media (max-width: 768px) and (min-width: 300px){}
+@media (max-width: 768px) and (min-width: 300px){}
+@media (max-width: 768px) and (min-width: 300px){}
+@media (max-width: 768px) and (min-width: 300px){}
+@media (max-width: 768px) and (min-width: 300px){}
+
+
+
 
 header a:hover{
     background-color: black;
     color: white;
 }
+
 
 li.botao{
     border: solid;
@@ -62,6 +69,8 @@ h1{
     margin-bottom: 0;
     padding: 50px 0;
 }
+
+
 
 h2{
     text-align: center;
