@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+}
+
+header{
+    background: url("../images/gato-background.jpg");
+    background-size: cover; 
+    background-position: center;
+    min-height: 30vh;
+    max-height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 360px){
+    header{
+        display: block;
+    }
+}
+
+h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 80px;
+    margin: 6vh 4vh;
+}
+
+@media (max-width: 768px) and (min-width: 360px){
+    h1{
+        font-size: 100px;
+        margin: auto 3vh;
+    }
+}
+
+@media (max-width: 360px){
+    h1{
+        margin: 0 2vh;
+    }
+}
+
+p{
+    color: white;
+    width: 100vh;
+    margin: 10vh 18vh;
+}
+
+@media (max-width: 768px) and (min-width: 360px){
+    p{
+        margin: auto 2vh;
+    }
+}
+
+@media (max-width: 360px){
+    p{
+        width: 93%;
+        margin: 1vh 1vh;
+    }
+}
+
+div{
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+    height: 20vh;
+    width: 30vh;
+}
+
+@media (max-width: 768px) and (min-width: 360px){
+    img{
+        height: 24vh;
+        width: 34vh;
+    }
+}
+
+
+@media (max-width: 360px){
+    img{
+        height: 34vh;
+        width: 54vh;
+        margin: 2vh 0;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 360px){
+    section div{
+        margin: 4vh auto;
+        width: 111vh;
+    }
+
+}
+
+@media(max-width: 360px){
+    section div{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
