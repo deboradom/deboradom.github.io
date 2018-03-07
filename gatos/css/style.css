@@ -22,7 +22,7 @@ h1{
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: lighter;
-    font-size: 80px;
+    font-size: 100px;
     margin: 6vh 4vh;
 }
 
@@ -66,6 +66,7 @@ div{
 img{
     height: 20vh;
     width: 30vh;
+    margin: 
 }
 
 @media (max-width: 768px) and (min-width: 360px){
@@ -84,6 +85,10 @@ img{
     }
 }
 
+section div{
+    margin: 5vh 50vh;
+}
+
 @media (max-width: 768px) and (min-width: 360px){
     section div{
         margin: 4vh auto;
@@ -96,6 +101,7 @@ img{
     section div{
         display: flex;
         flex-direction: column;
+        margin: 0;
     }
 }
 
