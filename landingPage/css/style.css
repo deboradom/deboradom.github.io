@@ -18,21 +18,10 @@ header a{
     padding: 10px 20px;
 }
 
-
-@media (max-width: 768px) and (min-width: 300px){}
-@media (max-width: 768px) and (min-width: 300px){}
-@media (max-width: 768px) and (min-width: 300px){}
-@media (max-width: 768px) and (min-width: 300px){}
-@media (max-width: 768px) and (min-width: 300px){}
-
-
-
-
 header a:hover{
     background-color: black;
     color: white;
 }
-
 
 li.botao{
     border: solid;
@@ -70,8 +59,6 @@ h1{
     padding: 50px 0;
 }
 
-
-
 h2{
     text-align: center;
 }
@@ -80,7 +67,6 @@ h2{
     background: url("../img/bg-banner.png");
     background-size: cover; 
     min-height: 85%;
-    min-width: 100%;
 }
 
 nav img{
@@ -142,7 +128,7 @@ header{
 
 .consultoria, .roteiro{
     text-align: center;
-    margin: 20px 60px;
+    margin: 20px 20px;
     width: 380px;
     height: 500px;
     background-color: #2EC2D2;
