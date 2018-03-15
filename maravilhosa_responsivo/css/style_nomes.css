@@ -1,0 +1,436 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background: #63458a;
+    height: 12vh;
+}
+
+nav .lista{
+    display: none;
+}
+
+.nav_sanduiche{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 15px 0;
+}
+
+nav div img.logo{
+    max-height: 3em;
+}
+
+nav div img.sanduiche{
+    max-height: 2em;
+}
+
+
+
+@media (min-width: 768px){ 
+    nav img.sanduiche{
+        display: none;
+    }
+
+    nav div img.logo{
+        max-height: 4em;
+    }
+
+    nav .lista{
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        align-content: center;
+        align-items: center;        
+    }
+    nav a{
+        color: white;
+        text-decoration: none;
+        padding: 10vh;
+        font-size: 12px;
+    }
+
+    .nav_lista{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+    }
+       
+}
+
+
+/* HEADER--------------------------------- */
+
+header{
+    margin: 0 auto;
+    background: url("../img/bg-banner-claro.png");
+    background-size: cover;  
+    background-position: center;
+    height: 50vh;
+    color: white;
+}
+
+header h1{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    /* text-align: center; */
+    /* margin: 0 auto;         */
+}
+
+header div.central{
+    height: 19em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 0 2em;
+}
+
+
+@media (min-width: 370px){
+    header{
+        text-align: center;
+    }
+
+    header h1{
+        font-size: 80px;
+        font-weight: bolder;
+        margin: 0 auto;
+    }
+
+    header a{
+        font-size: 13px;
+    }
+
+    .esq{
+        text-align: left;
+        max-width: 400px; 
+    }
+}
+
+/* SECTION---------------------------- */
+
+.mulheres{
+    margin: 0;
+}
+
+.mulheres h3{
+    color: #63458a;
+    font-family: Cambria, Cochin, Georgia;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mulheres p{
+    font-size: 20px;
+    text-align: center;
+    color: #63458a;
+    max-width: 800px;
+}
+
+.destaque p{
+    max-width: 500px;
+}
+
+@media (max-width: 370px){
+    .destaque img{
+        margin: 0 auto;
+    }   
+}
+
+.mulheres p.borda{
+    font-weight: bold;
+    text-align: center;
+}
+
+.mulheres div.destaque{
+    max-width: 800px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 30px auto;
+}
+
+.mulheres div img{
+    height: 250px;
+}
+
+.mulheres p.borda{
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 800px;
+}
+
+@media (max-width: 370px){
+    .mulheres p.borda{
+        font-size: 20px;
+    }
+}
+
+.mulheres .borda0{
+    max-width: 800px;
+    margin: 0 auto;
+    border: #63458a;
+    border-style: solid;
+}
+
+.mulheres div.historia{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.mulheres h4{
+    color: #63458a;
+    font-family: Cambria, Cochin, Georgia;
+    font-size: 20px;
+    text-align: left;
+}
+
+.historia img{
+    max-width: 800px;
+}
+
+
+@media (min-width: 370px){
+    .mulheres h3{
+        font-size: 35px;
+    }
+
+    .mulheres h4{
+        font-size: 30px;
+    }
+
+    .mulheres p{
+        font-size: 24px;
+        text-align: left;
+    }
+
+    .mulheres div img{
+        height: 300px;
+    }
+
+    .mulheres div.destaque{
+        display: flex;
+        justify-content: space-between;
+        /* flex-direction: flex-start;
+        max-width: 1000px;
+        margin: 0 auto; */
+    }
+}
+
+
+/* FUNDO ROSA------------------------------ */
+
+.fundorosa{
+    background-color: #e4b7e5;
+    color: #63458a;
+    height: 250px;
+}
+
+.fundorosa div{
+    display: flex;
+    justify-content: center;
+}
+
+.brevedescricao{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fundorosa p{
+    font-size: 25px;
+    font-weight: bold;
+    min-width: 360px;
+    padding: 20px;
+}
+
+.fotoedescricao{
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.fotoedescricao img{
+    max-height: 200px;
+}
+
+@media (max-width: 370px){
+    .fundorosa{
+        height: 250px;
+    }
+
+    .fundorosa img{
+        height: 100px;
+        width: 100px;
+        margin: 0 auto;
+    }
+    
+    .fundorosa p{
+        font-size: 15px;
+        text-align: center;
+        min-width: 0;
+    }
+
+    .fundorosa div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .fotoedescricao{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+/* LER MAIS--------------------------------- */
+
+.lermais h3{
+    font-size: 20px;
+    color: #63458a;
+    text-align: center;
+}
+
+.lermais img{
+    max-height: 300px;
+}
+
+.nomeefoto1, .nomeefoto2{
+    max-width: 800px;
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.nomeesobrenome{
+    max-width: 500px;
+    color: white;
+    background: #e4b7e5;
+    font-size: 20px;
+    height: 300px;
+    padding-left: 20px;
+}
+
+@media (max-width: 370px){
+    .lermais h3{
+        font-size: 20px;
+    }   
+
+      .nomeefoto1 img, .nomeefoto2 img{
+        max-height: 150px;
+        max-width: 150px;
+    }
+
+    .nomeefoto1, .nomeefoto2{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgRosa{
+        background: #e4b7e5;
+        max-width: 360px;
+        height: 20vh;
+    }
+}
+
+
+/* RODAPÉ----------------------------------- */
+
+.rodape{
+    text-align: center;
+    background: #323534;
+    color: white;
+    margin: 0;
+}
+
+margin: (cima baixo) (esq-direita);
+
+@media {}
+:i
+
+.rodape ul{
+    list-style: none;
+    padding: 5vh;
+    margin: 0;
+}
+
+.rodape ul li{
+    line-height: 2.0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logoM{
+    height: 10vh;
+}
+
+.rodape p.descricao{
+    font-size: 12px;
+    padding: 0 10vh;
+}
+
+.rodape p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding: 0 3vh;
+    font-size: 15px;
+}
+
+.logoF{
+    height: 5vh;
+}
+
+.facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+@media (min-width: 370px){
+    .rodape2{
+        max-width: 800px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    .rodape_meio{
+        max-width: 20em;
+    }
+}
+
+/* FOOTER----------------------------------------- */
+footer{
+    background: black;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+

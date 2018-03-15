@@ -1,0 +1,341 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background: #63458a;
+    height: 12vh;
+}
+
+nav .lista{
+    display: none;
+}
+
+.nav_sanduiche{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 15px 0;
+}
+
+nav div img.logo{
+    max-height: 3em;
+}
+
+nav div img.sanduiche{
+    max-height: 2em;
+}
+
+
+
+@media (min-width: 768px){ 
+    nav img.sanduiche{
+        display: none;
+    }
+
+    nav div img.logo{
+        max-height: 4em;
+    }
+
+    nav .lista{
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        align-content: center;
+        align-items: center;        
+    }
+    nav a{
+        color: white;
+        text-decoration: none;
+        padding: 10vh;
+        font-size: 12px;
+    }
+
+    .nav_lista{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+    }
+       
+}
+
+
+/* HEADER--------------------------------- */
+
+header{
+    margin: 0 auto;
+    background: url("../img/bg-banner-claro.png");
+    background-size: cover;  
+    background-position: center;
+    height: 50vh;
+    text-align: center;
+    color: white;
+}
+
+header h1{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+header h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    margin: 4vh 0;
+}
+
+header a{
+    text-decoration: none;
+    background-color: #b288c0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+}
+
+header div.central{
+    height: 19em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 0 2em;
+}
+
+
+@media (min-width: 370px){
+    header{
+        text-align: left;
+    }
+
+    header h1{
+        font-size: 24px;
+    }
+
+    header h2{
+        font-size: 15px;
+    }
+
+    header a{
+        font-size: 13px;
+    }
+
+    .esq{
+        text-align: left;
+        max-width: 400px; 
+    }
+}
+
+
+/* ------------------------SECTION 1------------------------- */
+
+.avatar{
+    margin: 0 auto;
+    background-color: #7e5a9b;
+    background-image: linear-gradient(90deg, #7e5a9b 0%, #b288c0 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: 350px;
+}
+
+.avatar img{
+    height: 150px;
+    margin-top: 10px;
+}
+
+.avatar p{
+    color: white;
+    padding: 0 40px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.mulheres{
+    margin: 0;
+    text-align: center;
+}
+
+
+.mulheres h3{
+    color: #63458a;
+    font-family: Cambria, Cochin, Georgia;
+    font-size: 20px;
+}
+
+.mulheres div{
+    max-width: 600px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 30px auto;
+}
+
+.mulheres div img{
+    height: 120px;
+    margin: 15px 25px;
+}
+
+.mulheres a{
+    text-decoration: none;
+    background-color: #b288c0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    padding: 10px 20px;
+}
+
+@media (min-width: 370px){
+    .avatar{
+    }
+
+    .avatar p{
+        font-size: 15px;
+    }
+
+    .mulheres a{
+        font-size: 13px;
+    }
+}
+
+
+
+/* TURMA 5---------------------------------------- */
+.turma5{
+    background: #63458a;
+    text-align: center;
+    margin-top: 8vh;
+}
+
+.turma5 h3{
+    color: white;
+    font-family: Cambria, Cochin, Georgia;
+    font-size: 18px;
+    padding: 5vh 11vh
+}
+
+.turma5 div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.turma5 div img{
+    height: 100px;
+    margin: 1vh 1vh
+}
+
+.turma5 div a{
+    text-decoration: none;
+    background-color: #b288c0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    padding: 10px 20px;
+    margin: 7vh;
+}
+
+@media (min-width: 370px){
+    .turma5 div{
+        max-width: 750px;
+        margin: 0 auto;
+    }
+
+    .turma5 div a{
+        font-size: 13px;
+    }
+}
+
+
+/* RODAPÉ----------------------------------- */
+
+.rodape{
+    text-align: center;
+    background: #323534;
+    color: white;
+    margin: 0;
+}
+
+.rodape ul{
+    list-style: none;
+    padding: 5vh;
+    margin: 0;
+}
+
+.rodape ul li{
+    line-height: 2.0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logoM{
+    height: 10vh;
+}
+
+.rodape p.descricao{
+    font-size: 12px;
+    padding: 0 10vh;
+}
+
+.rodape p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding: 0 3vh;
+    font-size: 15px;
+}
+
+.logoF{
+    height: 5vh;
+}
+
+.facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+@media (min-width: 370px){
+    .rodape2{
+        max-width: 700px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    .rodape_meio{
+        max-width: 20em;
+    }
+}
+
+/* FOOTER----------------------------------------- */
+footer{
+    background: black;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
