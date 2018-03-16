@@ -1,0 +1,515 @@
+/* ---------- MOBILE FIRST - iPhone 7 - width<768px ---------- */
+/* ---------- INDEX ---------- */
+/* ---------- GERAL ---------- */
+* {
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    -webkit-padding-start: 0;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.buttona {
+    background-color: #C083B9;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 3% 5%;
+    border-radius: 5px;
+}
+
+/* ---------- NAV ---------- */
+nav {
+    background-color: #674582;
+    min-height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navegacao {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-nav img {
+    width: 45%;
+}
+
+.nav-lista {
+    display: none;
+}
+
+.nav-sanduba {
+    display: flex;
+    
+}
+
+.nav-sanduba img {
+    background-color: #C083B9;
+    border-radius: 5px;
+}
+
+/* ---------- HEADER ---------- */
+header {
+    min-height: 48vh;
+    background: linear-gradient(rgba(212, 0, 255, 0.2),
+                                rgba(212, 0, 255, 0.2)),
+                url(../img/header.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 5% 0;
+}
+
+header div {
+    width: 80%;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 250%;
+    font-weight: 900;
+}
+
+.h1-home {
+    font-size: 150%;
+}
+
+h2 {
+    font-weight: normal;
+    margin: 7% 0;
+    font-size: 100%;
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    color: #63458a;
+    margin: 2%;
+    text-align: center;
+}
+
+/* ---------- SECTION WE-CAN-DO-IT ---------- */
+.we-can-do-it {
+    min-height: 60vh;
+    background: linear-gradient(to right, #7e5a9b, #B880B4);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 0;
+}
+
+.we-can-do-it div {
+    width: 86%;
+}
+
+.we-can-do-it img {
+    width: 50%;
+    object-fit: contain;
+}
+
+.we-can-do-it p {
+    font-size: 90%;
+    margin: 3% 0;
+}
+
+
+/* ---------- SECTION VC-CONHECE ---------- */
+
+.vc-conhece, .veja-todas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+}
+
+.vc-conhece p, .veja-todas p {
+    color: #63458a;
+    margin: 0;
+}
+
+.vc-conhece > div, .veja-todas > div {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.vc-conhece .mulher, .veja-todas .mulher {
+    width: 40%;
+    margin: 3%;
+}
+
+.mulher img {
+    width: 100%;
+    background-color: #63458a;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+div.mais-tres {
+    display: none;
+}
+
+/* ---------- SECTION CRIADORAS ---------- */
+.criadoras {
+    background-color: #63458a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5% 0;
+}
+
+.criadoras h3 {
+    color: white;
+    width: 70%;
+}
+
+.alunas {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2% 0;
+}
+
+.aluninha {
+    background-color: white;
+    border-radius: 10px;
+    width: 28%;
+    margin: 1.5%;
+    position: relative;
+}
+
+.aluninha img {
+    width: 100%;
+    object-fit: contain;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+    background-color: #323534;
+    font-size: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+}
+
+footer > div {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+footer li {
+    font-size: 120%;
+    margin: 10% 0;
+}
+
+footer > div > div {
+    width: 100%;
+}
+
+img.footer-imagem {
+    width: 100%;
+}
+
+.mensagemfinal {
+    font-style: italic;
+    font-size: 120%;
+    opacity: 0.4;
+}
+
+div.facebook a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img.fb {
+    width: 10%;
+    display: flex
+}
+
+.facebook p {
+    display: flex;
+    font-size: 120%;
+}
+
+.feito-com-amor {
+    width: 100%;
+    background-color: #292A2A;
+    font-size: 85%;
+    opacity: 0.5;
+}
+
+/* ---------- NOME-SOBRENOME ---------- */
+/* ---------- OUTRA HEADER ---------- */
+.outra-header, .why-header {
+    display: flex;
+    min-height: 30vh;
+    background: linear-gradient(rgba(140, 0, 255, 0.2),
+                                rgba(140, 0, 255, 0.2)),
+                url(../img/header.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+}
+
+.why-header {
+    min-height: 50vh;
+}
+
+.outra-header h1, .why-header h1 {
+    width: 80%;
+    padding: 1% 0;
+}
+
+/* ---------- PERSONALIDADE ---------- */
+.personalidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 0;
+}
+
+.personalidade > div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1% 0;
+}
+
+.personalidade .diva {
+    width: 50%;
+    margin: 2%;
+    background-color: #63458a;
+}
+
+.personalidade img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.personalidade p, .historia p {
+    color: #63458a;
+    margin: 1.5% 0;
+    text-align: left;
+}
+
+.personalidade .frase {
+    font-weight: bold;
+    border: solid;
+    border-color: #63458a;
+    border-width: 1px;
+    margin: 1% 0;
+}
+
+.frase p {
+    text-align: center;
+    padding: 3%;
+    font-size: 110%;
+}
+
+/* ---------- HISTORIA ---------- */
+.historia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 0;
+}
+
+.historia h3 {
+    width: 80%;
+    text-align: left;
+}
+
+.historia > div {
+    width: 80%;
+}
+
+.historia .fotona {
+    width: 100%;
+    height: 28vh;
+    margin: 5% 0;
+    background: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* ---------- AUTORA ---------- */
+.autora {
+    background-color: #e4b7e5;
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+.autora > div {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.autora .foto-autora {
+    width: 25%; 
+}
+
+.autora .foto-autora > img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.autora .dados-autora {
+    font-size: 80%;
+}
+
+.autora p {
+    margin: 0;
+    color: #63458a;
+}
+
+.autora a {
+    font-style: italic;
+    text-decoration: underline;
+    color: #63458a;
+}
+
+/* ---------- PERFIS RECOMENDADOS ---------- */
+.perfis-recomendados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 0;
+}
+
+.perfis-recomendados > div > div {
+    background-color: #63458a;
+}
+
+.foto-recomendada {
+    width: 100%;
+    background: url(../img/img-mulher.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40vh;
+}
+
+.sobre-perfil-recomendado {
+    background-color: #C083B9;
+    padding: 5%;
+}
+
+.perfis-recomendados > div > div {
+    margin: 5% 0;
+}
+
+.sobre-perfil-recomendado a {
+    color: #63458a;
+    font-weight: bold;
+}
+
+/* ---------- SOBRE ---------- */
+/* ---------- ONDE SURGIU ---------- */
+.onde-surgiu, .projeto-relevancia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 0 0 0;
+}
+
+.onde-surgiu p, .projeto-relevancia p {
+    color: #63458a;
+    width: 80%;
+    margin: 1.5% 0;
+}
+
+.fotona-sobre {
+    width: 100%;
+    height: 20vh;
+    margin: 2% 0;
+    background: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* ---------- PROJETO RELEVANCIA ---------- */
+.porcento {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.porcento > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 0 0 0;
+}
+
+.porcento > div p {
+    width: 100%;
+    text-align: center;
+}
+
+p.estatistica {
+    font-size: 300%;
+    font-weight: bold;
+    color: black;
+}
+
+/* ---------- CRIADORAS ---------- */
+.nome-aluna {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .4);
+    border-radius: 0 0 10px 10px;
+}
+
+.nome-aluna p {
+    color: #63458a;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 80%;
+    font-weight: bold;
+}
+
+
+.p-perfis {
+    text-align: left;
+    font-size: 75%;
+}    
