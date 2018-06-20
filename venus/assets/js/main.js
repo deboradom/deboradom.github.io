@@ -16,7 +16,7 @@ function buscar(){
 }
 
 
-function buscaMobile(){
-    document.getElementById("busca").style.position = "fixed";  
-}
+// function buscaMobile(){
+//     document.getElementById("busca").style.position = "fixed";  
+// }
 

@@ -46,6 +46,7 @@ header{
 
 .rotate{
     position: absolute;
+    /* position: fixed; */
     left: 52.5%;
     bottom: 30.5%;
     width: 67%;
@@ -106,60 +107,37 @@ header{
     background: url("../img/grid-bordeless.svg") no-repeat center;
     max-width: 300px; 
     margin: 30px;
+    height: 75vh;
+    -webkit-box-shadow: 1px 1px 10px 1px rgba(255,255,255,0.2);
+    -moz-box-shadow: 1px 1px 10px 1px rgba(255,255,255,0.2);
+    box-shadow: 1px 1px 10px 1px rgba(255,255,255,0.2);
 }
+
 
 .foto{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    /* background: blue;
-    opacity:0.4;
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    z-index: 1; */
+    /* position: relative; */
 }
 
 .foto img{
     width: 200px;
     border-radius: 50%;
-    margin-top: 50px;
+    margin-top: 10%;
+    position: relative;
     
 }
-
-/* .overlay1{
-    position: absolute;
-    background: purple;
-    opacity:0.4;
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    z-index: 1;
-    margin-top: 50px;
-    right: 14%
-} */
 
 .overlay{
     position: absolute;
     background: purple;
     opacity: 0.5;
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    z-index: 2;
-    margin-top: 50px
-}
-
-.overlay2{
-    position: absolute;
-    background: blue;
-    opacity: 0.2;
     width: 210px;
     height: 210px;
     border-radius: 100%;
-    z-index: 1;
-    margin-top: 50px
+    /* z-index: 2; */
+    transform: translateY(7%)
 }
 
 .info{
@@ -220,7 +198,7 @@ a {
 }
   
 .descricao {
-    text-align: justify;
+    text-align: center;
     padding: 0 30px 20px 30px;
     margin: 0;
     font-size: .8em;
