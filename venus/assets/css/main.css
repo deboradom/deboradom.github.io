@@ -47,7 +47,7 @@ header{
 .rotate{
     position: absolute;
     left: 52.5%;
-    bottom: 30%;
+    bottom: 30.5%;
     width: 67%;
     max-width: 297px;
     transform: rotate(-17deg) translateX(-52%);
@@ -226,6 +226,13 @@ a {
     font-size: .8em;
 }
 
+
+@media(max-width: 390px){
+    .rotate{
+        bottom: 28%;
+        transform: rotate(-17deg) translateX(-57%)
+    }
+}
 
 
 /* @media(min-width: 700px) and (orientation: landscape){
