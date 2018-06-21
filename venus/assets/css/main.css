@@ -190,7 +190,7 @@ a {
     font-size: .8em;
 }
 
-@media(max-device-width: 390px){
+@media(max-width: 390px){
     .rotate{
         transform: rotate(-17deg) translateX(-37%) translateY(-205%);
     }
@@ -202,34 +202,6 @@ a {
 
 }
 
-
-
-/* @media(max-width: 750px) and (orientation: landscape) and (orientation: portrait){
-    
-    nav{
-        background: blue
-    }
-
-    header{
-        height: 165vh;
-        background-size: 175vh;
-        background-size: 100% 
-        
-    }
-
-    .rotate{
-        transform: rotate(-17deg) translateX(-35%) translateY(-235%)
-    }
-
-    .info{
-        height: 55vh;
-    }
-
-    .cards{
-        height: 120vh;
-    }
-
-}  */
 
  @media(min-width: 1024px){
 
@@ -260,11 +232,11 @@ a {
 @media (max-height: 400px){
     header{
         background-size: 130%;
-        height: 120vh;
+        /* height: 505px; */
     }
 
     .rotate{
-        transform: rotate(-17deg) translateX(-27%) translateY(-235%);
+        transform: rotate(-17deg) translateX(-27%) translateY(-285%);
     }
 
     #busca{
