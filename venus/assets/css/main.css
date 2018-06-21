@@ -131,7 +131,8 @@ header{
     background: #3C2DCB 50%;
     margin: 0 auto;
     color: white;
-    height: 30vh
+    /* height: 30vh */
+    height: 100%;
 }
 
 .nome {
@@ -214,17 +215,19 @@ a {
         font-size: .45em;
     }
 
-    .cards{
-        height: 100vh
-    }
-
 }
 
-@media(max-width: 750px) and (orientation: landscape) and (orientation: portrait){
+/* @media(max-width: 750px) and (orientation: landscape) and (orientation: portrait){
     
+    nav{
+        background: blue
+    }
+
     header{
         height: 165vh;
-        background-size: 175vh
+        background-size: 175vh;
+        background-size: 100% 
+        
     }
 
     .rotate{
@@ -239,11 +242,31 @@ a {
         height: 120vh;
     }
 
-} 
+}  */
 
  @media(min-width: 1024px){
 
     .menu-hamburguer{
         display: none;
     }
+}
+
+@media(max-width: 750px) and (orientation: landscape){
+    header{
+        background-size: 74%;
+        height: 505px
+    } 
+
+    .rotate{
+        transform: rotate(-17deg) translateX(-22%) translateY(-335%);
+    }
+
+    /* .cards{
+        height: 100%;
+    }
+
+    .info{
+        height: 100%;
+    } */
+
 }
