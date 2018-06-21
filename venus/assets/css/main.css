@@ -235,7 +235,7 @@ a {
         transform: rotate(-17deg) translateX(-37%) translateY(-285%);
     }
 
-    #busca{
+    /* #busca{
         width: 150px;
         height: 25px;
         font-size: 20px;
@@ -243,5 +243,5 @@ a {
 
     .input input::placeholder{
         font-size: 20px;
-    }
+    } */
 }
