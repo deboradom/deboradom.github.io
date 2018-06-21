@@ -238,10 +238,10 @@ a {
     #busca{
         width: 150px;
         height: 25px;
-        font-size: 1em;
+        font-size: 10px;
     }
 
     .input input::placeholder{
-        font-size: 14px;
+        font-size: 10px;
     }
 }
