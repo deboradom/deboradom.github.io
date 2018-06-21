@@ -190,38 +190,19 @@ a {
     font-size: .8em;
 }
 
-@media(max-width: 390px){
+@media(max-device-width: 390px){
     .rotate{
         transform: rotate(-17deg) translateX(-37%) translateY(-205%);
     }
 
     #busca{
-        height: 48px
+        height: 45px;
     }
 
 
 }
 
-@media(max-height: 400px){
-    header{
-        background-size: 130%;
-        background-position-Y: 84%;
-    }
 
-    .rotate{
-        transform: rotate(-17deg) translateX(-27%) translateY(-235%);
-    }
-
-    #busca{
-        width: 100px;
-        height: 25px;;
-    }
-
-    .input input::placeholder{
-        font-size: .45em;
-    }
-
-}
 
 /* @media(max-width: 750px) and (orientation: landscape) and (orientation: portrait){
     
@@ -257,7 +238,7 @@ a {
     }
 }
 
-@media(max-width: 750px) and (orientation: landscape){
+@media (max-device-width: 750px) and (orientation: landscape){
     header{
         background-size: 74%;
         height: 505px
@@ -274,5 +255,24 @@ a {
     .info{
         height: 100%;
     } */
+}
 
+@media (max-height: 400px){
+    header{
+        background-size: 130%;
+        height: 120vh;
+    }
+
+    .rotate{
+        transform: rotate(-17deg) translateX(-27%) translateY(-235%);
+    }
+
+    #busca{
+        width: 100px;
+        height: 25px;;
+    }
+
+    .input input::placeholder{
+        font-size: .45em;
+    }
 }
