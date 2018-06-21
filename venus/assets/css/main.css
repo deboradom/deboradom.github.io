@@ -238,7 +238,7 @@ a {
     #busca{
         width: 150px;
         height: 25px;
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .input input::placeholder{
