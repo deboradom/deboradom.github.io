@@ -231,17 +231,18 @@ a {
 
 @media (max-height: 400px){
     header{
-        background-size: 130%;
+        background-size: 185%;
         /* height: 505px; */
     }
 
     .rotate{
-        transform: rotate(-17deg) translateX(-27%) translateY(-285%);
+        transform: rotate(-17deg) translateX(-37%) translateY(-285%);
     }
 
     #busca{
-        width: 100px;
-        height: 25px;;
+        width: 150px;
+        height: 25px;
+        font-size: 1.6em;
     }
 
     .input input::placeholder{
