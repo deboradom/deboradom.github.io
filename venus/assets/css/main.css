@@ -238,15 +238,15 @@ a {
     #busca{
         transform: translateY(120%)
     }
-    
+
     /* #busca{
         
         width: 150px;
         height: 25px;
         font-size: 20px;
     }
-
+*/
     .input input::placeholder{
         font-size: 20px;
-    } */
+    } 
 }
