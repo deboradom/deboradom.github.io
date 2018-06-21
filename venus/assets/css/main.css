@@ -191,7 +191,7 @@ a {
 
 @media(max-width: 390px){
     .rotate{
-        transform: rotate(-17deg) translateX(-37%) translateY(-210%);
+        transform: rotate(-17deg) translateX(-37%) translateY(-200%);
     }
 
     #busca{
