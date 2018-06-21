@@ -242,6 +242,6 @@ a {
     }
 
     .input input::placeholder{
-        font-size: .6em;
+        font-size: 25px;
     }
 }
