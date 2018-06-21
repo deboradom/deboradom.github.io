@@ -220,13 +220,9 @@ a {
         transform: rotate(-17deg) translateX(-22%) translateY(-335%);
     }
 
-    /* .cards{
-        height: 100%;
+    .input input::placeholder{
+        font-size: 1em;
     }
-
-    .info{
-        height: 100%;
-    } */
 }
 
 @media (max-height: 400px){
@@ -242,10 +238,10 @@ a {
     #busca{
         width: 150px;
         height: 25px;
-        font-size: 1.6em;
+        font-size: 1.5em;
     }
 
     .input input::placeholder{
-        font-size: 1em;
+        font-size: .6em;
     }
 }
