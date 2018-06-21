@@ -191,11 +191,7 @@ a {
 
 @media(max-width: 390px){
     .rotate{
-        transform: rotate(-17deg) translateX(-37%) translateY(-200%);
-    }
-
-    #busca{
-        height: 50px;
+        transform: rotate(-17deg) translateX(-37%) translateY(-160%);
     }
 }
 
@@ -206,12 +202,16 @@ a {
     }
 
     .rotate{
-        transform: rotate(-17deg) translateX(-47%) translateY(-40%)
+        transform: rotate(-17deg) translateX(-27%) translateY(-235%);
     }
 
     #busca{
-        width: 170px;
-        height: 44px;
+        width: 100px;
+        height: 25px;;
+    }
+
+    .input input::placeholder{
+        font-size: .45em;
     }
 
     .cards{
@@ -220,7 +220,7 @@ a {
 
 }
 
-@media(max-width: 700px) and (orientation: landscape) and (orientation: portrait){
+@media(max-width: 750px) and (orientation: landscape) and (orientation: portrait){
     
     header{
         height: 165vh;
@@ -238,6 +238,7 @@ a {
     .cards{
         height: 120vh;
     }
+
 } 
 
  @media(min-width: 1024px){
