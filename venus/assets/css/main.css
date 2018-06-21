@@ -221,7 +221,7 @@ a {
     }
 
     .input input::placeholder{
-        font-size: 104px;
+        font-size: 14px;
     }
 }
 
@@ -235,7 +235,12 @@ a {
         transform: rotate(-17deg) translateX(-37%) translateY(-285%);
     }
 
+    #busca{
+        transform: translateY(120%)
+    }
+    
     /* #busca{
+        
         width: 150px;
         height: 25px;
         font-size: 20px;
